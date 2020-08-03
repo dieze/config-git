@@ -1,0 +1,9 @@
+[user]
+	name = John Doe
+	email = john.doe@domain.com
+[core]
+	excludesfile = /Users/johndoe/.git/gitignore_global
+[merge]
+	tool = idea
+[mergetool "idea"]
+	cmd = idea merge \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
